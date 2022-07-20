@@ -44,6 +44,8 @@ public class Flipcart {
 				driver.switchTo().window(childWindow);
 			String r =driver.getCurrentUrl();
 			System.out.println("childWindow,"+r);
+			System.out.println("Shiva,"+r);
+			System.out.println("Shiva");
 			}
 			
 		}
