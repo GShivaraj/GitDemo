@@ -54,9 +54,11 @@ s.add("Gonepalli");
 s.remove("Shiva");
 System.out.println(s.get(1));
     }
-    s.add("Shiva");
-    s.add("Raj");
+    s.add("Shiva1");
+    s.add("Raj1");
     s.add("Gonepalli");
-    s.remove("Shiva");
-    System.out.println(s.get(1));
+    s.remove("Shiva1");
+    System.out.println(s.get(2));
+    
+    
 }
