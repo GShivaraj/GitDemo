@@ -16,9 +16,13 @@ public class OJS {
 		d.findElement(By.name("message")).sendKeys("Test lead");
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		d.findElement(By.xpath("//*[@type='file']")).sendKeys("C:\\Users\\ADMIN\\Downloads\\tester resume 4.docx");
+		d.findElement(By.xpath("//*[@type='file']")).sendKeys("C:\\Users\\ADMIN\\GIT\\src\\scanner");
 		
+		d.findElement(By.xpath("//*[@type='file']")).sendKeys("C:\\Users\\ADMIN\\GIT\\src");
+		d.findElement(By.xpath("//*[@type='file']")).sendKeys("C:\\Users\\ADMIN\\GIT");
 		d.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		d.findElement(By.cssSelector("input[type='submit']")).click();
+		
 	}
 
 }
